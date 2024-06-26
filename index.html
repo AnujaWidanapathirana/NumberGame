@@ -4,17 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text" href="styles.css" />
+    <link rel="stylesheet" type="text" href="style.css" />
     <title>Guess the Number</title>
 </head>
 <body>
     <div class="gameBar">
-        <h1>Guess the Number..Win the Lottery</h1>
+        <h1>Guess the Number..Win the Game</h1>
         <p>Guess a number between 1 and 100</p>
         <input type="number" id="guess" placeholder="Enter your guess" min="1" max="100">
         <button onclick="checkGuess()">Guess</button>
         <p class="message" id="message"></p>
         <button onclick="resetGame()">Reset Game</button>
+        <p class="message2" id="message2"></p>
     </div>
     <script src="JS.js"></script> 
 </body>
